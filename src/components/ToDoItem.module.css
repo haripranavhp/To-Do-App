@@ -1,0 +1,26 @@
+.item-container {
+	display: flex;
+	gap: 1rem;
+}
+
+.to-do-item {
+	font-size: 1.1rem;
+	flex: 1;
+	list-style: none;
+	color: #412807ad;
+	background-color: rgba(250, 235, 215, 0.5);
+	padding: 0.75rem;
+	border-radius: 0.5rem;
+}
+.to-do-item:hover {
+	color: #170e03ad;
+	background-color: rgba(250, 235, 215);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.to-do-item-done-btn {
+	font-size: 1rem;
+	width: 3rem;
+	border-radius: 0.5rem;
+}
